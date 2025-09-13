@@ -61,14 +61,14 @@ export default function CombinadoApp() {
       name: "Chicha Morada 1L",
       description: "Chicha morada tradicional",
       price: 5,
-      image: "/placeholder-cixsi.png",
+      image: "https://i.pinimg.com/1200x/06/c4/0b/06c40bb5d6d402c6289b4058f0d23ce2.jpg",
     },
     {
       id: "chicha-500ml",
       name: "Chicha Morada 500ml",
       description: "Chicha morada tradicional",
       price: 2,
-      image: "/placeholder-dyi0z.png",
+      image: "https://www.shutterstock.com/image-photo/peruvian-drink-chicha-morada-purple-600nw-1455064757.jpg",
     },
   ]
 
@@ -162,7 +162,7 @@ ${cart.map((item) => `• ${item.name} x${item.quantity} - S/ ${item.price * ite
 
       <div className="max-w-4xl mx-auto p-4 space-y-6">
         <section>
-          <h2 className="text-2xl font-bold mb-4 text-center">Nuestros Combos</h2>
+          <h2 className="text-2xl font-bold mb-4 text-center">Nuestros Combos</h2>        
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {combos.map((combo) => (
               <Card key={combo.id} className="overflow-hidden">
@@ -379,7 +379,7 @@ ${cart.map((item) => `• ${item.name} x${item.quantity} - S/ ${item.price * ite
         <footer className="text-center space-y-2 py-8">
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
             <MapPin className="h-4 w-4" />
-            <span className="text-sm">Av. Ejemplo 123, Lima</span>
+            <span className="text-sm">Calle carbono 270 - Urb Grimaneza</span>
           </div>
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
             <Phone className="h-4 w-4" />
